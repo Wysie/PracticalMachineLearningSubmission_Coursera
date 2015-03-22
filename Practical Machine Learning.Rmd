@@ -80,7 +80,7 @@ rfPrediction <- predict(rfModel, testingPartition, type = "class")
 confusionMatrix(rfPrediction, testingPartition$classe)
 ```
 
-The Random Forest Model is select since it yields a higher accuracy (~99%) vs that of the Decision Tree Model (~76%).
+The Random Forest Model is selected since it yields a higher accuracy (~99%) vs that of the Decision Tree Model (~76%).
 
 ##Submission
 ```{r, echo=TRUE}
